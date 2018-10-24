@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS location_detail;
+
 CREATE TABLE location_detail (
   id integer NOT NULL,
   phone varchar(30) NOT NULL,
